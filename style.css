@@ -1,0 +1,70 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-color :chartreuse;
+}
+
+.header
+{
+	color: yellow;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+.header
+{
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+#login_button
+{
+	width: 50%;
+	border-radius: 15px;
+	background-color: rgb(73, 190, 230);
+	color: rgb(240, 12, 31);
+	border-color: blue;
+	border-style: dotted;
+}
+#login_button:hover{
+	background-color: green;
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; 
+	float: right;
+}
+
+
+#output
+{
+	padding: 10px; 
+	width:80%;
+	background: gold;
+	border-radius: 15px;
+}
+
+#div:hover{
+	background-color: rgb(233, 144, 225);
+	width: 550px;
+}
